@@ -1,0 +1,146 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 15, 2019, 4:43:26 PM
+    Author     : dinht
+*/
+
+
+.header-container {
+    left: 15%;
+    right: 15%;
+    height: 15%;
+    background-color: #f68c1f;
+    position: absolute;
+    text-align: center;
+    margin-bottom: -4px;
+    margin-top: -4px;
+}
+
+.header-text {
+    position: absolute;
+    top: 3%;
+    left: 8%;
+    color: black;
+    font-size:60px;
+    font-weiht: bold;
+    font-family: monospace;
+}
+
+.menu-bar{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    right: 15%;
+    text-align: center;
+    margin-bottom: -4px;
+}
+
+.leftnav{
+    position: absolute;
+    left:1%;
+    float:left;
+    width: 70%;
+    text-align: left;
+    /*border-left: 2px black solid;*/
+    padding-left: 20px;
+}
+
+.rightnav{
+    position: absolute;
+    top: 3%;
+    right:1%;
+    float:right;
+    width: 10%;
+    text-align: left;
+    /*border-right: 2px black solid;*/
+    padding: auto;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.search-box{
+    border: 1px dashed black;
+}
+
+.search-button{
+    border: none;
+    outline:none;
+    background-color: white;
+}
+
+.footer{
+
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.body{
+    background: url(img/bg.jpg); 
+    background-size: contain;
+}
+
+.menu-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #890400;
+}
+
+.menu-ul li {
+    float: left;
+}
+
+.menu-ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.menu-ul li a:hover {
+    background-color: #111;
+}
+
+div.card {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+
+.body-container{
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    top: 21.5%;
+    bottom: 10%;
+    background-color: darkgray;
+    border-radius: 0 0 50px 50px;
+}
+
+.product-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.product-ul li {
+    float: left;
+}
+
+.product-ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
